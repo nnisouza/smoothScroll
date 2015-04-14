@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>smoothScroll</title>
+        <style>
+            @import url(http://fonts.googleapis.com/css?family=Abel);
+            body{
+                background: #fff;
+                margin: 0;
+                padding: 0;
+                font-family: 'Abel';
+                font-size: 80px;
+            }
+            .wrapper{
+                width: 960px;
+                margin: 0 auto;
+            }
+            .wrapper p{
+                margin: 0;
+                line-height: 0.9em;
+                text-align: center;
+                color: #121212;
+            }
+            .paraOne{font-size: 412px;}
+            .paraTwo{font-size: 455px;}
+            .paraThree{font-size: 312px;}
+            .paraFour{font-size: 208px;}
+            .paraFive{font-size: 185px;}
+            .paraSix{  font-size: 162px;line-height: 1em;}
+            .wrapper .paraTwo{
+                color:#fff;
+                background-color: #fce1e1
+            }
+            .paraFive>span,
+            .paraSix>a{
+                color: #ffd5d5;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <p class="paraOne">I'm So</p>
+            <p class="paraTwo">fancy</p>
+            <p class="paraThree">that my</p>
+            <p class="paraFour">movements</p>
+            <p class="paraFive">are <span>fancy</span> too</p>
+            <p class="paraSix">
+                <a href="https://github.com/nnisouza/smoothScroll/archive/master.zip">
+                    smoothScroll()
+                </a>
+            </p>
+    </body>
+    <script src="smoothScroll.js"></script>
+    <script>
+        smoothScroll();
+    </script>
+</html>
